@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFH Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="/output.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+    <link rel="preload" as="image" href="./images/wallpaper/keyboard.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="w-full h-[100vh]">
+
+        <div class="section bg-[rgba(9,0,97,0.8)] bg-[url('./images/wallpaper/keyboard.jpg')] bg-cover bg-center bg-blend-multiply w-full min-h-4/5 md:h-[90vh] text-white" id="home">
+        
+            <!-- THE HEADER -->
+            <header class="w-full flex justify-between items-center px-5 pt-4 pb-4 z-20 fixed">
+                <a class="text-2xl font-bold" href=""><h1>OFH AGENCY</h1></a>
+
+                <!-- The nav bar -->
+                <nav class="flex flex-row justify-between items-center gap-5 font-semibold">
+                    <div class="hidden md:flex justify-between items-center gap-3">
+                        <a href="#home" class="">HOME</a>
+                        <a href="#about">ABOUT</a>
+                        <a href="#expertise">EXPERTISE</a>
+                        <a href="#teams">TEAMS</a>
+                        <a href="#works">WORKS</a>
+                        <a href="#peopleSay">PEOPLE SAY</a>
+                        <a href="#contact">CONTACT</a>
+                    </div>
+
+                    <!-- The toggle for the mode -->
+                    <div class="text-2xl">
+                        <button class="mode border-0 text-teal-400"><i class="fa-regular fa-sun-bright"></i></button>
+                        <div class="modeDropDown w-16 bg-[rgba(255,255,255,0.6)] backdrop-blur-md hidden absolute right-12 md:right-5 rounded-lg">
+                            <ul class="w-full list-none flex flex-col justify-center items-center p-2">
+                                <li class="dayLightBtn text-teal-400 p-0 w-full text-center"><i class="fa-regular fa-sun-bright"></i></li>
+                                <li class="darkBtn p-0 w-full text-center"><i class="fa-sharp fa-regular fa-moon-stars"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- The nav for mobile view -->
+                    <div class="md:hidden">
+                        <span class="text-4xl hamburger"><i class="fa-sharp fa-solid fa-bars"></i></span>
+                
+                        <div class="dropDown hidden absolute right-0 w-full">
+                            <ul class="w-full bg-white text-[#000] text-center divide-y divide-teal-400 divide-solid list-none">
+                                <li><a href="#home">HOME</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#expertise">EXPERTISE</a></li>
+                                <li><a href="#teams">TEAMS</a></li>
+                                <li><a href="#works">WORKS</a></li>
+                                <li><a href="#peopleSay">PEOPLE SAY</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- THE MAIN CONTENTS OF THE JUMBOTRON -->
+
+            <!-- THE HOME SECTION -->
+            <div class="px-5 flex justify-center items-center flex-col h-full">
+                <h2 class="text-5xl text-center mb-9 mt-32 sm:mt-0 md:mt-24 font-serif font-bold">We are an Awesome Creative Agency</h2>
+                <div class="w-28 h-1 bg-[rgb(94,234,212)] mb-9"></div>
+                <div class="mx-5 mb-9 text-base text-center">
+                    This is a creative Agency that provides Tech Solution to the world.
+                    We offer different Tech Solutions such as Game Development, BlockChain development,
+                    Artificial intelligence and Software Development.
+                    One distinct attribute about us comes down to our active participation in shaping lives 
+                    of young upcoming ones, and we do this by picking 100 successful applicants each year 
+                    and train them on any Technological Area of their choice. 
+                    We are quickly changing the technological landscape of Africa and the world as a whole.
+                </div>
+                <button class="border border-teal-400 p-2.5 mb-6 rounded text-teal-400 ">
+                    LEARN MORE
+                </button>
+            </div>
+        </div>
+
+        <!-- The About section -->
+        <div class="section w-full p-5 dark:bg-black dark:text-white" id="about">
+
+            <div class="flex flex-col md:flex-row py-8">
+                <!-- The Company image -->
+                <div class="w-full md:w-5/12 text-9xl text-teal-400 text-center mt-12">
+                    <i class="fa-thin fa-cubes"></i>
+                </div>
+
+                <!-- The about us info of the section -->
+                <div class="flex flex-col justify-center items-center md:w-7/12">
+                    <h3 class="mt-8 text-3xl font-semibold text-center font-serif">OUR STORY</h3>
+                    <div class="text-base my-4">
+                        This is a creative Agency that provides Tech Solution to the world. It was founded 
+                        by Mr.Olukunle Ojo in the year 1987 with just 6 staff and now after just 36 years, 
+                        we have grown to be more than just a Tech Giant. We now also touch lives by introducing 
+                        technology and its applications to young Students beyond the age of 7. We are quickly changing 
+                        the technological landscape of Africa and the world as a whole.
+                    </div>
+                    <button class="border border-teal-400 p-2.5 mb-6 rounded text-teal-400">
+                        LEARN MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Expertise section -->
+        <div class="section flex flex-col justify-center items-center dark:bg-black dark:text-white" id="expertise">
+            <!-- The heading of the expertise section -->
+            <div class="p-5 flex flex-col justify-center items-center">
+                <h3 class="mt-8 text-3xl font-semibold text-center font-serif">EXPERTISE</h3>
+                <p class="font-normal text-center">This is a detailed section of the skills we specialize in.</p>
+                <div class="w-28 h-1 bg-[rgb(94,234,212)] mt-5 mb-9"></div>
+            </div>
+
+            <!-- The body section showing the cards of each skills -->
+            <div class="flex flex-col sm:flex-row sm:flex-wrap justify-between w-full p-5">
+
+                <!-- Web Design and Development -->
+                <div class="skillBox rounded-lg shadow shadow-black dark:shadow-white mb-5">
+                    <!-- The div for the icon -->
+                    <div class="text-5xl w-full h-[70px] mt-5 flex justify-center items-center">
+                        <i class="fa-light fa-desktop"></i>
+                    </div>
+                    <!-- The Card message -->
+                    <div class="px-5 pb-5">
+                        <h4 class="text-center font-bold">WEB DESIGN & DEVELOPMENT</h4>
+                        <div class="clippedText">
+                            Explore the digital world through our comprehensive coding courses. Learn the art of creating visually stunning and user-friendly websites. From HTML and CSS fundamentals to advanced JavaScript and responsive design, our programs cover it all. Master the skills required to craft captivating web experiences, from the ground up. Whether you're a beginner looking to kickstart your journey or an experienced developer aiming to stay ahead in the ever-evolving tech landscape, our organization offers a dynamic and hands-on learning environment. Join us to unlock the full potential of web design and development, empowering yourself for a digital future.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Branding Identity -->
+                <div class="skillBox rounded-lg shadow-md shadow-black dark:shadow-white mb-5">
+                    <!-- The div for the icon -->
+                    <div class="text-5xl w-full h-[70px] mt-5 flex justify-center items-center">
+                        <i class="fa-light fa-paintbrush-fine"></i>
+                    </div>
+                    <!-- The Card message -->
+                    <div class="px-5 pb-5">
+                        <h4 class="text-center font-bold">BRANDING IDENTITY</h4>
+                        <div class="clippedText">
+                            Dive into the realm of brand creation and development with our specialized courses. Discover the secrets to crafting distinctive brand identities that resonate with your target audience. From logo design and color psychology to brand strategy and storytelling, our programs encompass every facet of building a strong brand. Gain expertise in creating cohesive visual elements, shaping unique brand personalities, and forging emotional connections. Whether you're an aspiring brand strategist, graphic designer, or entrepreneur, our organization provides a creative platform to explore and refine your branding skills. Join us to unlock the power of Branding Identity and leave a lasting impression in the world of marketing and design.                             
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile App -->
+                <div class="skillBox rounded-lg shadow-md shadow-black dark:shadow-white mb-5">
+                    <!-- The div for the icon -->
+                    <div class="text-5xl w-full h-[70px] mt-5 flex justify-center items-center">
+                        <i class="fa-light fa-mobile-screen-button"></i>
+                    </div>
+                    <!-- The Card message -->
+                    <div class="px-5 pb-5">
+                        <h4 class="text-center font-bold" >MOBILE APP</h4>
+                        <div class="clippedText">
+                            Embark on a journey into the thriving world of mobile app creation through our specialized courses. Learn the ins and outs of developing cutting-edge mobile applications for iOS, Android, and beyond. From coding in Swift or Java to UI/UX design principles, our programs cover the entire app development lifecycle. Acquire the skills to bring your app ideas to life, from concept to deployment on app stores. Whether you're a budding app developer, designer, or entrepreneur, our organization offers a hands-on learning experience in a rapidly evolving mobile landscape. Join us to become a mobile app innovator, ready to shape the future of technology and user experiences.                             
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search Engine Optimization -->
+                <div class="skillBox rounded-lg shadow-md shadow-black dark:shadow-white mb-5">
+                    <!-- The div for the icon -->
+                    <div class="text-5xl w-full h-[70px] mt-5 flex justify-center items-center">
+                        <i class="fa-sharp fa-light fa-magnifying-glass-chart"></i>
+                    </div>
+                    <!-- The Card message -->
+                    <div class="px-5 pb-5">
+                        <h4 class="text-center font-bold">SEARCH ENGINE OPTIMIZATION</h4>
+                        <div class="clippedText">
+                            Delve into the world of digital visibility and discover the strategies behind effective SEO with our specialized courses. Explore the art and science of optimizing websites to rank higher on search engine results pages (SERPs). From keyword research and on-page optimization to off-page link building and analytics, our programs cover the full spectrum of SEO techniques. Gain mastery in increasing organic traffic, enhancing user experience, and maximizing online presence. Whether you're a digital marketer, business owner, or aspiring SEO specialist, our organization provides the knowledge and tools to navigate the ever-evolving SEO landscape. Join us to unlock the potential of SEO and propel your online presence to new heights in the competitive digital landscape.                              
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game Development -->
+                <div class="skillBox rounded-lg shadow-md shadow-black dark:shadow-white mb-5">
+                    <!-- The div for the icon -->
+                    <div class="text-5xl w-full h-[70px] mt-5 flex justify-center items-center">
+                        <i class="fa-light fa-gamepad-modern"></i>
+                    </div>
+                    <!-- The Card message -->
+                    <div class="px-5 pb-5">
+                        <h4 class="text-center font-bold">GAME DEVELOPMENT</h4>
+                        <div class="clippedText">
+                            Immerse yourself in the exciting realm of game creation with our specialized courses. Explore the art and science of developing captivating video games for various platforms and genres. From coding in C# or C++, to 2D and 3D graphics design, our programs encompass the entire game development process. Gain expertise in crafting engaging gameplay mechanics, immersive storytelling, and visually stunning worlds. Whether you're a aspiring game developer, artist, or storyteller, our organization provides a dynamic learning environment to transform your gaming passion into a profession. Join us to unlock the power of Game Development and embark on a thrilling journey to create the next generation of interactive entertainment.                         
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artificial Intelligence -->
+                <div class="skillBox rounded-lg shadow-md shadow-black dark:shadow-white mb-5">
+                    <!-- The div for the icon -->
+                    <div class="text-5xl w-full h-[70px] mt-5 flex justify-center items-center">
+                        <i class="fa-sharp fa-light fa-microchip-ai"></i>
+                    </div>
+                    <!-- The Card message -->
+                    <div class="px-5 pb-5">
+                        <h4 class="text-center font-bold">ARTIFICIAL INTELLIGENCE</h4>
+                        <div class="clippedText">
+                            Embark on a journey into the future of technology and innovation with our specialized courses. Explore the fascinating world of AI, where machines simulate human intelligence to perform complex tasks. From machine learning and deep neural networks to natural language processing and computer vision, our programs cover the diverse and powerful realms of AI. Acquire the skills to create intelligent algorithms, analyze vast datasets, and build AI-driven applications. Whether you're an aspiring AI engineer, data scientist, or tech enthusiast, our organization offers a dynamic and hands-on learning environment to dive deep into the AI frontier. Join us to unlock the boundless possibilities of Artificial Intelligence and shape the future of technology.                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        
+        <!-- THE TEAMS SECTION -->
+        <div class="section bg-[url('./images/wallpaper/teams.jpg')] bg-[rgba(9,0,97,1)] bg-blend-multiply bg-cover bg-center text-white" id="teams">
+            <!-- The title section of the team section -->
+            <div class="flex flex-col justify-center items-center">
+                <h3 class="mt-8 text-3xl font-semibold text-center font-serif">MEET OUR AMAZING TEAM</h3>
+                <p class="font-normal text-center">See our Best Brains...</p>
+                <div class="w-28 h-1 bg-[rgb(94,234,212)] mt-5 mb-9"></div>
+            </div>
+
+            <!-- The members section -->
+            <div class="flex flex-wrap flex-row justify-between p-5">
+                
+                <!-- The founder -->
+                <div class="imageCard border border-white mb-5">
+                    <!-- The image div -->
+                    <div class="">
+                        <img class="w-full aspect-[7/8] object-bottom object-cover" src="./images/author.jpg" alt="">
+                    </div>
+                    <div class="pt-3 pb-4">
+                        <h4 class="text-center font-bold">OJO OLUKUNLE</h4>
+                        <p class="text-center font-light">CEO & FOUNDER</p>
+                    </div>
+                </div>
+
+                <!-- Engineering Lead -->
+                <div class="imageCard border border-white mb-5">
+                    <!-- The image div -->
+                    <div class="">
+                        <img class="w-full aspect-[7/8] object-bottom object-cover" src="./images/author.jpg" alt="">
+                    </div>
+                    <div class="pt-3 pb-4">
+                        <h4 class="text-center font-bold">OJO TOLULOPE</h4>
+                        <p class="text-center font-light">ENGINEER</p>
+                    </div>
+                </div>
+
+                <!-- Design lead -->
+                <div class="imageCard border border-white mb-5">
+                    <!-- The image div -->
+                    <div class="">
+                        <img class="w-full aspect-[7/8] object-bottom object-cover" src="./images/author.jpg" alt="">
+                    </div>
+                    <div class="pt-3 pb-4">
+                        <h4 class="text-center font-bold">OJO MODUPE</h4>
+                        <p class="text-center font-light">DESIGNER</p>
+                    </div>
+                </div>
+
+                <!-- Marketing lead -->
+                <div class="imageCard border border-white mb-5">
+                    <!-- The image div -->
+                    <div class="">
+                        <img class="w-full aspect-[7/8] object-bottom object-cover" src="./images/author.jpg" alt="">
+                    </div>
+                    <div class="pt-3 pb-4">
+                        <h4 class="text-center font-bold">OJO TITILOPE</h4>
+                        <p class="text-center font-light">MARKETING STRATEGIST</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center pt-3 pb-6">
+                <!-- This is a secondary button -->
+                <p class="text-center decoration-white underline underline-offset-4 mb-4">
+                    SEE MORE PROJECT MEMBERS
+                </p>
+
+                <!-- The hire section -->
+                <div class="flex flex-col justify-center items-center">
+                    <!-- The title details of the hire section -->
+                    <p class="mb-5 font-light">
+                        Become part of our dream team. Come join us! <span></span>
+                    </p>
+
+                    <!-- The hire button -->
+                    <button class="border border-teal-400 p-2.5 mb-6 rounded text-teal-400">
+                        WE ARE HIRING
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- The works section -->
+        <div class="section dark:bg-black dark:text-white" id="works">
+            <!-- The title of the works section -->
+            <div class="flex flex-col justify-center items-center sm:flex-row sm:justify-between p-5">
+                <h3 class="text-3xl font-semibold text-center font-serif">OUR WORKS</h3>
+                <div class="">
+                    <span class="font-normal"><a class="no-underline" href="https://www.github.com/tolu1123">See all projects on Github</a></span> <span><i class="fa-regular fa-angle-right"></i></span>
+                </div>
+            </div>
+
+            <!-- The body of the works section -->
+            <div class="flex flex-wrap flex-row justify-between p-5">
+
+                <!-- MAMA TOLU RESTAURANT -->
+                <div class="imageFrame mb-4">
+                    <img class="object-center w-full h-full" src="./images/chickenImmortal.png" alt="An image of MAMA TOLU restaurant website" loading="lazy">
+                </div>
+
+                <!-- BANK APPLICATION -->
+                <div class="imageFrame mb-4">
+                    <img class="object-center w-full h-full" src="./images/bank.png" alt="An image of my bank website" loading="lazy">
+                </div>
+
+                <!-- JEANS SHOP -->
+                <div class="imageFrame mb-4">
+                    <img class="object-center w-full h-full" src="./images/jeans1.png" alt="An image of my JEANS SHOP website" loading="lazy">
+                </div>
+
+                <div class="imageFrame mb-4">
+                    <img class="object-center w-full h-full" src="./images/jeans2.png" alt="Another image of my JEANS SHOP website" loading="lazy">
+                </div>
+
+                <!-- HAMBURGER RESTAURANT -->
+                <div class="imageFrame mb-4">
+                    <img class="object-center w-full h-full" src="./images/burgerHouse.png" alt="An image of my burgerHouse website" loading="lazy">
+                </div>
+
+                <div class="imageFrame mb-4">
+                    <img class="object-center w-full h-full" src="./images/burgerHouse2.png" alt="Another image of my burgerHouse website" loading="lazy">
+                </div>
+
+                <!-- HACKCITY FORM -->
+                <div class="imageFrame mb-4">
+                    <img class="object-center w-full h-full" src="./images/hackCityForm.png" alt=" An image of the hackCityForm website I built" loading="lazy">
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+                <button class="border border-teal-400 p-2.5 mb-6 rounded text-teal-400">
+                    LOAD MORE
+                </button>
+            </div>
+        </div>
+
+
+        <!-- The PeopleSay section -->
+        <div class="section bg-[url('./images/wallpaper/peopleSayWallpaper.jpg')] bg-[rgba(9,0,97,1)] bg-blend-multiply bg-cover bg-center text-white py-14 px-5" id="peopleSay">
+
+            <!-- A quote from a satsfied customer -->
+            <div class="flex flex-col justify-center items-center px-5">
+                <!-- The quote icon -->
+                <h3 class="font-semibold text-3xl">
+                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                </h3>
+
+                <!-- The quote message -->
+                <div class="w-4/5 text-center my-10">
+                    Incredible experience! I can't praise their tech service enough. Their experts swiftly resolved my issues, going above and beyond. The friendly support team made me feel valued. The solution they provided exceeded all expectations. If you're seeking top-notch tech assistance, your search ends here. Join the growing community of satisfied customers who've witnessed their exceptional magic. Don't miss out on the opportunity to elevate your tech game – these professionals deliver nothing short of excellence.
+                </div>
+
+                <!-- The person who delivered the quote -->
+                <div class="flex flex-col justify-center items-center mb-8">
+                    <h4 class="font-bold">OJO FUNKE</h4>
+                    <p class="font-extralight">
+                        <span class="font-medium">CHIEF EXECUTIVE OFFICER</span>
+                        <br>
+                        <span>(MAMA TOLU RESTAURANT)</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Pictures of our happy client -->
+            <div class="flex justify-center items-center flex-row gap-3">
+
+                <div class="rounded-full w-10 h-10 overflow-hidden">
+                    <img class="object-center w-full h-full" src="./images/customer1.jpg" alt="A happy client (1)">
+                </div>
+
+                <div class="rounded-full w-10 h-10 overflow-hidden">
+                    <img  class="object-center w-full h-full" src="./images/customer2.jpg" alt="A happy client (2)">
+                </div>
+
+                <div class="rounded-full w-16 h-16 z-10 overflow-hidden">
+                    <img  class="object-center w-full h-full" src="./images/customer3.jpg" alt="A happy client (3)">
+                </div>
+
+                <div class="rounded-full w-10 h-10 overflow-hidden">
+                    <img  class="object-center w-full h-full" src="./images/customer4.jpg" alt="A happy client (4)">
+                </div>
+
+                <div class="rounded-full w-10 h-10 overflow-hidden">
+                    <img class="object-center w-full h-full" src="./images/customer5.jpg" alt="A happy client (5)">
+                </div>          
+
+            </div>
+        </div>
+
+
+        <!-- THE CONTACT US SECTION -->
+        <div class="section w-full flex flex-col flex-wrap sm:flex-row sm:p-0 " id="contact">
+
+            <!-- The form section of the contact us section -->
+            <div class="w-full sm:w-1/2 p-8 sm:pl-8 dark:bg-black dark:text-white">
+                <form class="w-full" action="/submit.php" method="post">
+                    <h3 class="text-3xl font-semibold font-serif">
+                        GIVE US SOME GOOD NEWS.
+                    </h3>
+
+                    <div class="sm:w-5/6 mt-5">
+                        
+                        <input class="w-full h-9 p-[10px] text-base block border-[1px]" type="text" name="" id="" placeholder="Name">
+                        <br>
+
+                        <input class="w-full h-9 p-[10px] text-base block border-[1px]" type="email" name="" id="" placeholder="Email">
+                        <br>
+
+                        <input class="w-full h-9 p-[10px] text-base block border-[1px]" type="text" name="" id="" placeholder="Subject">
+                        <br>
+
+                        <textarea class="w-full sm:max-h-[180px] md:max-h-[379px] p-[10px] text-base block border-[1px]" name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+
+
+                        <button class="border border-teal-400 py-1 px-4  my-5 rounded text-teal-400 ">
+                            SUBMIT
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- The Logos of our clients -->
+            <div class="sm:w-1/2 p-8 sm:pr-8 dark:bg-white">
+                <h3 class="text-center text-2xl font-semibold leading-8 font-serif">
+                    OUR HAPPY CLIENTS
+                </h3>
+                <div class="flex flex-row flex-wrap">
+                    <div class="w-1/2 aspect-square">
+                        <img class="w-full h-full object-scale-down object-center" src="./images/adidas.png" alt="The logo for adidas company">
+                    </div>
+                    <div class="w-1/2 aspect-square">
+                        <img class="w-full h-full object-scale-down object-center" src="./images/calvinKlein.png" alt="The logo for calvinKlein company">
+                    </div>
+                    <div class="w-1/2 aspect-square">
+                        <img class="w-full h-full object-scale-down object-center" src="./images/dior.png" alt="Dior logo">
+                    </div>
+                    <div class="w-1/2 aspect-square">
+                        <img class="w-full h-full object-scale-down object-center" src="./images/puma.png" alt="Puma logo">
+                    </div>
+                    <div class="w-1/2 aspect-square">
+                        <img class="w-full h-full object-scale-down object-center" src="./images/versace.png" alt="Versace logo">
+                    </div>
+                    <div class="w-1/2 aspect-square">
+                        <img class="w-full h-full object-scale-down object-center" src="./images/zara.png" alt="Zara logo">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--  the footer section -->
+        <footer class="bg-[url('./images/wallpaper/hardWarePlan.jpg')] bg-[rgba(9,0,97,1)] bg-blend-multiply bg-cover bg-center text-white py-14 px-5">
+
+            <div class="flex flex-col flex-wrap justify-between sm:flex-row">
+                <!-- The organisation's reserved rights -->
+                <div class="mb-6 md:mb-0">
+                    <div class="text-4xl text-teal-400 md:mb-5">
+                        <!-- The Organization logo -->
+                        <i class="fa-thin fa-cubes"></i>
+                    </div>
+                    <div>
+                        Elevating Technology, Empowering You.
+                        <br>
+                        Made with love <span><i class="fa-sharp fa-light fa-heart"></i></span> from Ibadan, Nigeria.
+                    </div>
+                </div>
+
+                <!-- The organiation address -->
+                <div class="mb-6 md:mb-0">
+                    <h4 class="md:mb-5 font-bold">OUR STUDIO</h4>
+                    <div class="">
+                        Contact us at No.1, OluAgency Building, Ajibade, Sango, Ibadan, Nigeria.
+                        <br>
+                        oluagency@tech.com
+                        <br>
+                        (+234) 80 3608 7041
+                    </div>
+                </div>
+
+                <!-- The newsletter and social media links -->
+                <div class="sm:mt-12 md:mt-0">
+
+                    <!-- The newsletter -->
+                    <div class="w-full">
+                        <h4 class="w-full md:mb-5 font-bold">STAY IN TOUCH</h4>
+                        <div class="flex flex-row flex-nowrap justify-between">
+                            <input class="w-9/12 h-9 p-[10px] text-base border-[1px]" type="text" name="" id="" placeholder="Subscribe our newsletter">
+                            <button class="w-2/12 h-9 bg-[rgba(255,255,255,0.8)]"><i class="fa-light fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- social media links -->
+                    <div class="w-full flex flex-row flex-wrap gap-3 text-[16px] mt-4">
+                        <span class="w-9 h-9 px-[8px] leading-[200%] text-center inline-block border-[1px] border-white rounded-full"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="w-9 h-9 px-[8px] leading-[200%] text-center inline-block border-[1px] border-white rounded-full"><i class="fa-brands fa-x-twitter"></i></span>
+                        <span class="w-9 h-9 px-[8px] leading-[200%] text-center inline-block border-[1px] border-white rounded-full"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="w-9 h-9 px-[8px] leading-[200%] text-center inline-block border-[1px] border-white rounded-full"><i class="fa-brands fa-linkedin-in"></i></span>
+                        <span class="w-9 h-9 px-[8px] leading-[200%] text-center inline-block border-[1px] border-white rounded-full"><i class="fa-brands fa-tiktok"></i></span>
+                        <span class="w-9 h-9 px-[8px] leading-[200%] text-center inline-block border-[1px] border-white rounded-full"><i class="fa-brands fa-youtube"></i></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- The baseline text -->
+            <div class="flex flex-col flex-wrap justify-center md:flex-row md:justify-between md:mt-10">
+                <div class="w-full md:max-w-[40%] flex flex-row justify-between items-center gap-4">
+                    <span class="p-4">HELP</span>
+                    <span>TERMS & CONDITION</span>
+                    <span>PRIVACY</span>
+                </div>
+
+                <div class="w-full md:w-auto mt-8 md:mt-0 text-center md:text-left flex justify-center items-center">
+                   Copyright © 2023 - OFH Agency 2023. 
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    
+</body>
+</html>

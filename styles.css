@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+nav li {
+    padding: 8px;
+}
+.clippedText {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+} 
+@media (max-width: 639px) {
+    .skillBox {
+        width: auto;
+    }
+    .imageFrame {
+        width: calc(50% - 20px);
+    }
+    .imageCard {
+        width: calc(50% - 20px);
+    }
+    /* .fillBg {
+        width: calc(100% + 40px);
+        padding: 20px;
+    } */
+}
+@media (min-width: 640px) {
+    .skillBox {
+        width: calc(50% - 20px);
+    }
+    .imageCard {
+        width: calc(50% - 20px);
+    }
+    .imageFrame {
+        width: calc(25% - 20px);
+    }
+    footer > div:first-child > div {
+        width: calc(50% - 20px);
+    } 
+}
+@media (min-width: 768px) {
+    .skillBox {
+        width: calc(33% - 20px);
+    }
+    .imageCard {
+        width: calc(25% - 20px);
+    }
+    .imageFrame {
+        width: calc(16.66% - 20px);
+    }
+    footer > div:first-child > div {
+        width: calc(33% - 20px);
+    } 
+} 
